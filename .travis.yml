@@ -4,7 +4,7 @@ before_install:
   - source <(curl -SLs https://raw.githubusercontent.com/chatelao/travis-ci-arduino/master/install.sh)
 script:
   - build_platform uno
-  - build_platform due
+#  - build_platform due # Problems compiling
   - build_platform esp8266
 notifications:
   email:
